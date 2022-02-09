@@ -29,10 +29,14 @@ img {
   width: 50%;
 }
 
-footer {
+#closing-word {
   font-family: "Righteous", cursive;
   font-size: 30px;
   color: var(--blue);
+}
+
+a {
+  color: var(--orange);
 }
 
 /* Main Style */
