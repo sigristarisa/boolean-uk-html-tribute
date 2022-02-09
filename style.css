@@ -1,0 +1,38 @@
+/* imported fonts */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap"); /* "Righteous", cursive */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); /* "Montserrat", sans-serif */
+
+/* color */
+html {
+  --cream: rgb(255, 244, 206);
+  --blue: rgb(98, 186, 192);
+  --orange: rgb(233, 143, 24);
+  --brown: rgb(73, 41, 0);
+}
+
+/* Base Style */
+body {
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--cream);
+  color: var(--brown);
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  font-size: 50px;
+  color: var(--blue);
+}
+
+h2 {
+  font-weight: 800;
+  color: var(--orange);
+}
+
+img {
+  width: 50%;
+}
+
+.page {
+  width: 50%;
+}
