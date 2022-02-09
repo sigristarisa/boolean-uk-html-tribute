@@ -16,6 +16,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
   color: var(--brown);
+  line-height: 25px;
 }
 
 h1 {
@@ -24,15 +25,24 @@ h1 {
   color: var(--blue);
 }
 
-h2 {
-  font-weight: 800;
-  color: var(--orange);
-}
-
 img {
   width: 50%;
 }
 
+footer {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+  color: var(--blue);
+}
+
+/* Main Style */
+.subtitle {
+  font-weight: 800;
+  color: var(--orange);
+}
+
 .page {
   width: 50%;
+  padding: 16px;
+  border-bottom: rgb(98, 186, 192) 2px solid;
 }
